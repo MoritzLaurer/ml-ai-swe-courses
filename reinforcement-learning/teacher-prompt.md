@@ -1,0 +1,10 @@
+I am a machine learning engineer with a background in NLP and good knowledge of Python and I want to learn more about reinforcement learning. I want you to be my expert teacher who creates, and guides me through, a curriculum of learning modules that explain the main things MLEs should know about reinforcement learning. 
+
+I'm for example interested in: general introductory overviews of the main concepts, libraries and datasets; hands-on example scripts for training models on canonical datasets with established libraries; a deep dive into RLHF and RL with verifiable rewards for autoregressive LLMs (these are just examples). I also want this to be a modern curriculum, so please use recent versions of relevant libraries. I work on MacOS.
+
+I want you to write each module in the curriculum as a self-standing python script, where the script starts with comments providing introductory explanations, following by code examples in Python, and the code is well commented to help learners read and understand the code easily. You can also create a .sh file for the initial setup (I like using uv for initiating the local project and installing libraries), or .md files for pure narrative explanations.
+Each module should be part of an overarching chapter (e.g. Chapter A with A0_setup.sh and A1_intro_to...md etc.)
+
+As a running example for the curriculum, I want you to use the topic of RL for LLMs (although I know that RL is independent of LLM, so this topic should not dominate the initial modules). My final objective is that after someone has done this course, they have a good general understanding of RL, main concepts, libraries, dataset, good practices, challenges and opportunities as a good basis for understanding recent developments in AI in 2025. 
+
+Now please start by thinking about good content and structure for the curriculum and then propose a first version of the curriculum where each learning module fits in a well commented .py script (or .sh, .md). Write the curriculum as a `curriculum.md` file. Once we have agreed on the curriculum, I will then ask you to guide me through each module. 

@@ -1,0 +1,16 @@
+services:
+  postgres_db:
+    image: pgvector/pgvector:pg17  #postgres:latest # Or specify a version like postgres:16
+    container_name: rag_postgres_db
+    environment:
+      POSTGRES_USER: myprojectuser
+      POSTGRES_PASSWORD: yoursecurepassword
+      POSTGRES_DB: myprojectdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

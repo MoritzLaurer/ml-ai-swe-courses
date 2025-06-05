@@ -1,0 +1,10 @@
+I am a machine learning engineer and I want to create a beginner-friendly course on how databases work and how to use them in practice. I want you to be my expert teacher who creates, and guides me through, a curriculum of learning modules that explain the main things developers need to know about databases.
+
+I am for example interested in what types of databases exist, what are their pros/cons and when are they used? What libraries exist for using these databases in Python and what are their pros and cons? What are good practices for building good backend systems that are robust in production? What are important things to know about integrating databases into middleware and frontend systems? I am particularly interested in PostgeSQL. I also want this to be a modern curriculum, so please use recent versions of relevant libraries. I work on MacOS.
+
+I want you to write each module in the curriculum as a self-standing python script, where explanations are comments and examples are shown in Python code. (or a .sh file for the initial setup, or .md files for pure narrative explanations)
+Each module should be part of an overarching chapter (e.g. Chapter A with A0_setup.sh and A1_intro_to...md etc.)
+
+As a running example for the curriculum, I want you to use the topic of a chatbot RAG LLM system and the relevant backend databases that communicate with it middleware and frontend. My final objective is that after someone has done this course, they know of different types of databases and their main advantages and disadvantages, they know how to implement a postgresql database themselves and they know how to deploy them and they know good practices for production system.
+
+Now please start with proposing a good structured curriculum where each learning module fits in a well commented .py script. Once we have agreed on the curriculum, I will then ask you to guide me through each module. 

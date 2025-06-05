@@ -1,0 +1,8 @@
+jax
+jaxlib
+torch      # For comparison examples
+transformers # For loading models later
+flax       # Common JAX NN library used with HF
+optax      # Optimizer library for JAX
+datasets   # Useful for data handling (optional for early stages)
+ipykernel  # Optional: If you want to use Jupyter notebooks within VS Code

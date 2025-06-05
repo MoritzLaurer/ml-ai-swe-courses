@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.ruff_cache/
+
+# VSCode
+.vscode/
+pytorch.code-workspace
+
+# macOS
+.DS_Store
+
+# logs
+tensorboard_logs/
+
+# model files
+checkpoints/
+checkpoints_dpo/
+pytorch/HuggingFaceTB_SmolLM2-135M-Instruct_raw_files/
+pytorch/smolLM2_example_files
+
+# Virtual environments
+.venv/
+node_modules/
+
+# Environment variables
+.env
