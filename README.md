@@ -17,7 +17,7 @@ The courses happen to be on topics related to machine learnig and software engin
 
 ### Motivation and workflow: 
 I often use LLMs as expert tutors to rehearse existing knowledge or learn new things. When I want to dive deeper into a topic, the following workflow has turned out to work very well: 
-1. Prompt an LLM to create a curriculum on a topic in a `curriculum.md` file. The curriculum should be structured in modules that can be independent files (.md files or scripts like `A0_setup.sh`, `A1_intro_to_databases.md`, `B1_sql_fundamentals_sqlite.py`). See, for example, this [teacher-prompt.md](.databases/a-teacher-prompt.md) for creating a curriculum on databases.
+1. Prompt an LLM to create a curriculum on a topic in a `curriculum.md` file. The curriculum should be structured in modules that can be independent files (.md files or scripts like `A0_setup.sh`, `A1_intro_to_databases.md`, `B1_sql_fundamentals_sqlite.py`). See, for example, this [teacher-prompt.md](./databases/a-teacher-prompt.md) for creating a curriculum on databases.
 2. Interactively improve the `curriculum.md` manually or with the LLM.
 3. Once the curriculum is finished, iteratively create each module file: Prompt the LLM to generate a first draft of a specific module file and interactively improve the module either manually or with the LLM. 
 
